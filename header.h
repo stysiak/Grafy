@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <cstdlib>
 #include "budowaGrafu.h"
-#include "budowaGrafu.h"
+#include "algorytmKruskala.h"
+
 
 using namespace std;
