@@ -30,7 +30,8 @@ int main()
     zamianaNaLN("grafLista.txt");
     cout<<"Zamiana macierzy sasiedztwa na liste krawedzi:"<<endl;
     zamianaNaLEzMacierzy("grafLista.txt", macierz);
-    //Kruskal();
+    cout<<"Algorytm Kruskala:"<<endl;
+    Kruskal("grafLista.txt");
 
     for (int i = 0; i < n; ++i)
     {
